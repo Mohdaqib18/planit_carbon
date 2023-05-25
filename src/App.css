@@ -1,0 +1,158 @@
+body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+  
+
+
+
+
+}
+
+.homepage-container {
+    background-color: black;
+    height: 100vh;
+
+}
+
+.box {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    z-index: -1;
+    margin-left: 330px;
+    margin-top: -30px;
+    transition: transform .7s linear 0s;
+
+}
+
+
+.homepage-logo {
+    margin: 52px 0 0 52px;
+}
+
+.faqs-container {
+    color: #fff;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 280px;
+    margin-top: 210px;
+    margin-left: 50px;
+
+}
+
+li {
+    margin: 10px 0;
+}
+
+.carbon-container {
+    position: absolute;
+    left: 37.66%;
+    right: 2.27%;
+    top: 34.98%;
+    bottom: 34.74%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 252px;
+
+    color: #1E1E1E;
+    margin-left: 185px;
+    margin-top: -135px;
+
+}
+
+.graph-container {
+    position: absolute;
+    width: 805px;
+    margin-top: -200px;
+    margin-left: 750px
+}
+
+.graph-item:hover {
+    filter: grayscale(100%)
+}
+
+.graph-link-item {
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    width: 380px;
+    margin-right: 10px;
+
+
+}
+
+.graph-link-block {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 30px;
+
+}
+
+.graph-link-container {
+    margin-top: -40px;
+    margin-right: 70px;
+}
+
+.article-container {
+    display: flex;
+    color: #fff;
+    width: 852px;
+    height: 414px;
+    gap: 40px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-left: 600px;
+    margin-top: -275px;
+}
+
+.logo{
+    transition: transform 2s linear 0s;
+}
+
+.login-btn{
+    width: 120px;
+    height:50px;
+    border-radius:15px;
+    background-color: white ;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+
