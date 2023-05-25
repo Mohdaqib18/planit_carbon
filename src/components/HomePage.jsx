@@ -65,10 +65,10 @@ const HomePage = () => {
 									fontSize: "20px",
 									fontWeight: "500",
 									marginTop: "63px",
-									marginRight:"15px"
+									marginRight: "15px",
 								}}
 							>
-								Hello {userDetails.name} !
+								Welcome {userDetails.name} !
 							</div>
 							<div>
 								<button onClick={handleLogout} className="login-btn">
@@ -79,12 +79,10 @@ const HomePage = () => {
 					) : (
 						<>
 							<Link to="/login">
-								<button className="login-btn" style={{ background: "white" }}>
-									Login
-								</button>
+								<button className="login-btn">Login</button>
 							</Link>
 							<Link to="/signup">
-								<button className="login-btn">SignUp</button>
+								<button className="login-btn">Sign up</button>
 							</Link>
 						</>
 					)}
